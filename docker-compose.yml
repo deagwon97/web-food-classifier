@@ -7,7 +7,7 @@ services:
       context: ./
       dockerfile: ./Dockerfile
     volumes:
-      - ./src2:/home/ubuntu
+      - ./src:/home/ubuntu
     ports:
       - 8000:8000
     entrypoint: /bin/bash
