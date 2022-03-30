@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  mnist-server:
-    container_name: mnist-server
+  server:
+    container_name: server
     build:
       context: ./
       dockerfile: ./Dockerfile
