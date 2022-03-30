@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Food Classification AI Model</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="utf-8">
+</head>
+
+<body>
+<title>Food Classification AI Model</title>
+<h1>Food Classification AI Model</h1>
+<h2>upload your food image to inference</h2>
+<p>
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}
+		<ul>
+		{% for message in messages %}
+		  <p>{{ message }}</p>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %}
+</p>
+{% if filename %}
+	<div>
+		<img src="{{ url_for('display_image', filename=filename) }}">
+	</div>
+{% endif %}
+<form method="post" action="/" enctype="multipart/form-data">
+    <dl>
+		<p>
+			<input type="file" name="file" autocomplete="off" required>
+		</p>
+    </dl>
+    <p>
+		<input type="submit" value="Upload">
+	</p>
+</form>
+{% if label %}
+    <div class="result_lable">
+        This picture looks like a <b>{{ label }} </b>
+    </div>
+{% endif %}
+
+</body>
+</html>
