@@ -6,6 +6,21 @@ flask, tensorflow를 활용한 인공지능 음식 분류 서비스입니다.
     <img  style="width : 30% ;" src="/asset/sample_page.png"/>
 </div>
 
+## Start
+```bash
+>> git clone https://github.com/deagwon97/web-food-classifier.git
+
+>> cd web-food-classifier
+
+>> sh install-docker.sh
+
+>> docker-compose up
+
+>> docker exec -it server /bin/bash
+
+(container)>> python3 main.py
+```
+
 ## Refrence 
 - https://github.com/roytuts/flask/tree/master/python-flask-upload-display-multiple-images
 - https://tfhub.dev/google/aiy/vision/classifier/food_V1/1
