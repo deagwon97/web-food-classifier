@@ -21,7 +21,7 @@ flask, tensorflow를 활용한 인공지능 음식 분류 서비스입니다.
 (container)>> python3 main.py
 ```
 
-## Refrence 
+## Reference 
 - https://github.com/roytuts/flask/tree/master/python-flask-upload-display-multiple-images
 - https://tfhub.dev/google/aiy/vision/classifier/food_V1/1
 
