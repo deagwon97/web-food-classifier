@@ -1,5 +1,4 @@
 ## Web Food Classifier
-<hr/>
 flask, tensorflow를 활용한 인공지능 음식 분류 서비스입니다. 
 
 ### 화면
