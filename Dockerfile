@@ -21,5 +21,4 @@ RUN apt-get install -y libgtk2.0-dev
 COPY ./src /home/ubuntu
 
 RUN pip install --upgrade pip
-RUN pip install --upgrade tensorflow_hub
 RUN pip install -r ./requirements.txt

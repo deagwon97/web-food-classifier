@@ -36,11 +36,16 @@
 		<input type="submit" value="Upload">
 	</p>
 </form>
-{% if label %}
-    <div class="result_lable">
-        This picture looks like a <b>{{ label }} </b>
-    </div>
-{% endif %}
-
+	{% if label %}
+		<div class="result_lable">
+			This picture looks like a <b>{{ label }} </b>
+		</div>
+	{% endif %}
+	<br/>
+	<br/>
+	<hr/>
+	<h3></h3>
+	<p>food classification model from <a href = "https://tfhub.dev/google/aiy/vision/classifier/food_V1/1">TensorFlow Hub</a></p>
+	<p>web page from <a href = "https://flask.palletsprojects.com/en/2.1.x/">Flask</a></p>
 </body>
 </html>

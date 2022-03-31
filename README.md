@@ -4,5 +4,5 @@
 
 
 <div align="center">
-    <img  style="width : 30% ;" src="/images/sample_page.png"/>
+    <img  style="width : 30% ;" src="/asset/sample_page.png"/>
 </div>
