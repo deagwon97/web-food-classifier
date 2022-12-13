@@ -1,4 +1,5 @@
 # Web Food Classifier
+청년취업사관학교(새싹)의 보조강사로 활동하면서 진행했던 코드와 강의 자료를 공유합니다.
 flask, tensorflow를 활용한 인공지능 음식 분류 서비스입니다. 
 
 ## Screen
